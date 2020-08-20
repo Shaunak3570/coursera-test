@@ -1,0 +1,117 @@
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .container {
+
+            width: 100%;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 30px;
+            margin-bottom: 40px;
+        }
+
+        h3 {
+            margin: 1px 1px;
+            padding: 1px;
+            text-align: center;
+        }
+
+        #Ch {
+            background-color: hotpink;
+        }
+
+        #Bh {
+            background-color: indianred;
+        }
+
+        #Sh {
+            background-color: khaki;
+        }
+
+        .heading {
+            float: right;
+            width: 20%;
+            text-align: center;
+            border: 1px solid black;
+            border-top: 0px;
+        }
+
+        .item {
+            width: 50%;
+            margin: 12px 3px;
+            border: 1px solid black;
+            padding-left: 20px;
+            background-color: gray;
+        }
+
+        /********** Large devices only **********/
+        @media (min-width: 992px) {
+            #Chicken {
+                background-color: gray;
+                float: left;
+                width: 32%;
+            }
+
+            #Beef {
+                background-color: gray;
+                float: left;
+                width: 32%;
+
+            }
+
+            #Sushi {
+                background-color: gray;
+                float: left;
+                width: 33.30%;
+            }
+        }
+
+        /********** Medium devices only **********/
+        @media (min-width: 768px) and (max-width: 991px) {
+            #Chicken {
+                background-color: gray;
+                float: left;
+                width: 32%;
+            }
+
+            #Beef {
+                background-color: gray;
+                float: left;
+                width: 32%;
+
+            }
+
+            #Sushi {
+                background-color: gray;
+                float: left;
+                width: 65%;
+            }
+
+            /****************** Small devices ***************/
+            @media (max-width: 767px) {
+                #Chicken {
+                    
+                    float: left;
+                    width: 32%;
+                }
+
+                #Beef {
+                    
+                    float: left;
+                    width: 32%;
+
+                }
+
+                #Sushi {
+                    
+                    float: left;
+                    width: 65%;
+                }
+            }
+        }
+        
