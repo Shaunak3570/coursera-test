@@ -1,1 +1,117 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color:gray;
+  border-radius: 0;
+  border: 0;
+}
+header h1{
+  color: black;
+  text-align: center;
+}
+#logo-img {
+  background: url('../images/restaurant-logo_large.png') no-repeat;
+  width: 150px;
+  height: 150px;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.navbar-brand p { /* Kosher cert */
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span { /* Star-K */
+  vertical-align: middle;
+}
+
+
+
+
+/*came from week2 soln*/
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  
+  width: 100%;
+  margin: center;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+  margin-bottom: 40px;
+}
+
+
+.heading {
+  float: right;
+  width: 20%;
+  text-align: center;
+  border: 1px solid black;
+  border-top: 0px;
+}
+
+.item {
+  
+  width: 100%;
+  margin: 12px 3px;
+  border: 1px solid black;
+  padding-left: 20px;
+  background-color: gray;
+}
+.item h3{
+  text-align: center;
+}
+
+
+
+#nav-list {
+  margin-top: 10px;
+  border: black;
+}
+#nav-list a {
+  color: black;
+  background-color: white;
+  border: solid black;
+  border-bottom: gray;
+  text-align: center;
+}
+#nav-list #asdd{
+  border-bottom: blue;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+
+
 
